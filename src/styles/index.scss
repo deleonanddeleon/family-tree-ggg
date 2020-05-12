@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700,900&display=swap');
+
+$font-stack:  'Raleway', sans-serif;
+
+/* Color Palette:  https://colorhunt.co/palette/2763 */
+$color-black: #222831;
+$color-grey: #393e46;
+$color-turquoise: #00ADB5;
+$color-dark: #eeeeee;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: $color-grey;
+  color:  $color-turquoise;
+  font-family: $font-stack;
+  font-size: 100%;
+  position: relative;
+  padding: 0;
+}
+
+hr {
+  border-color: $color-turquoise;
+}
+
+/*** Nav ***/
+
+nav {
+  background: $color-black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 18px;
+  min-height: 50px;
+
+  ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    
+    li {
+      width: 100px;
+      text-align: center;
+      flex-grow: 1;
+      
+      a {
+        color: $color-turquoise;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        text-decoration: none;        
+      }
+
+      a:hover {
+	      color: gray;
+      }
+    }
+  }
+  div:nth-child(1) {
+    flex-grow: 8;
+    width: 125px;
+    padding-bottom:15px;
+
+    img {
+	    margin-left: 20px;
+    }
+  }
+}
+
+.nav-child {
+  flex-grow: 1;
+}
+
+/*** Section Hero ***/
+
+section {
+  h1 {
+    font-size:  2rem;
+    text-align: center;
+    // line-height: 2.5;
+    // padding-bottom: 15px;
+  }
+}
+
+section.hero {
+  display: flex;
+  flex-direction: column;
+  h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.6;
+  }
+  a {
+    color: $color-turquoise;
+    // font-size: 0.9rem;
+    // text-transform: uppercase;
+    text-decoration: none;        
+  }
+  a:hover {
+    color: gray;
+  }
+}
+
+.container {
+  padding-top: 10vh;
+  width: 80vw;
+  margin: 0 auto;
+  max-width:  900px;
+}
+
+%card-shared {
+  background: $color-black;
+  border: 1px solid $color-turquoise;
+}
+
+.card {
+  @extend %card-shared;
+  width: 14rem;
+  .nickname {
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+  .cardlink {
+    font-size: 0.8rem;
+  }
+}
+
+.cardparent {
+  @extend %card-shared;
+  width: 16rem;
+}
+
