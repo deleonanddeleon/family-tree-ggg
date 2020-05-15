@@ -2,7 +2,7 @@ import React from "react";
 import {
   Link,
 } from "react-router-dom";
-import logo from '../images/ggglogo.png';
+import logo from '../images/ggg-logo.png';
 
 const Nav = () => {
   return (

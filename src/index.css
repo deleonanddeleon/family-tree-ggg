@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700,900&display=swap");
 /* Color Palette:  https://colorhunt.co/palette/2763 */
+/* Color Palette:  https://colorhunt.co/palette/238 */
 *,
 *::before,
 *::after {
@@ -16,8 +17,8 @@ html, body {
 }
 
 body {
-  background: #393e46;
-  color: #00ADB5;
+  background: #903749;
+  color: #eeeeee;
   font-family: "Raleway", sans-serif;
   font-size: 100%;
   position: relative;
@@ -25,12 +26,12 @@ body {
 }
 
 hr {
-  border-color: #00ADB5;
+  border-color: #eeeeee;
 }
 
 /*** Nav ***/
 nav {
-  background: #222831;
+  background: #2b2e4a;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -53,7 +54,7 @@ nav ul li {
   flex-grow: 1;
 }
 nav ul li a {
-  color: #00ADB5;
+  color: #eeeeee;
   font-size: 0.9rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -90,7 +91,7 @@ section.hero h3 {
   line-height: 1.6;
 }
 section.hero a {
-  color: #00ADB5;
+  color: #eeeeee;
   text-decoration: none;
 }
 section.hero a:hover {
@@ -105,8 +106,8 @@ section.hero a:hover {
 }
 
 .cardparent, .card {
-  background: #222831;
-  border: 1px solid #00ADB5;
+  background: #2b2e4a;
+  border: 1px solid #eeeeee;
 }
 
 .card {

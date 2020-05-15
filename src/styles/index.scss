@@ -1,12 +1,7 @@
+@use 'color-theme';
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700,900&display=swap');
 
 $font-stack:  'Raleway', sans-serif;
-
-/* Color Palette:  https://colorhunt.co/palette/2763 */
-$color-black: #222831;
-$color-grey: #393e46;
-$color-turquoise: #00ADB5;
-$color-dark: #eeeeee;
 
 *,
 *::before,
@@ -24,8 +19,8 @@ html, body {
 }
 
 body {
-  background: $color-grey;
-  color:  $color-turquoise;
+  background: color-theme.$color-2;
+  color:  color-theme.$color-3;
   font-family: $font-stack;
   font-size: 100%;
   position: relative;
@@ -33,13 +28,13 @@ body {
 }
 
 hr {
-  border-color: $color-turquoise;
+  border-color: color-theme.$color-3;
 }
 
 /*** Nav ***/
 
 nav {
-  background: $color-black;
+  background: color-theme.$color-1;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -62,7 +57,7 @@ nav {
       flex-grow: 1;
       
       a {
-        color: $color-turquoise;
+        color: color-theme.$color-3;
         font-size: 0.9rem;
         text-transform: uppercase;
         text-decoration: none;        
@@ -108,7 +103,7 @@ section.hero {
     line-height: 1.6;
   }
   a {
-    color: $color-turquoise;
+    color: color-theme.$color-3;
     // font-size: 0.9rem;
     // text-transform: uppercase;
     text-decoration: none;        
@@ -126,8 +121,8 @@ section.hero {
 }
 
 %card-shared {
-  background: $color-black;
-  border: 1px solid $color-turquoise;
+  background: color-theme.$color-1;
+  border: 1px solid color-theme.$color-3;
 }
 
 .card {

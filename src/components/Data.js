@@ -184,6 +184,40 @@ export const nodes = {
         link: '/bobong'
       },         
     ]
+  },
+  josie: {
+    parent: {
+      name: 'Josephine Calumpang',
+      spouse: 'Cromwell Bulandres',
+      description: 'Lorem Ipsum',
+      link: '/andrews'
+    },
+    offspring: [  
+      {
+        name: 'Jay Bulandres',
+        nickname: 'Jay',
+        description: `Lorem Ipsum is simply dummy text`,
+        link: '/jay'
+      },
+      {
+        name: 'Joanna Bulandres',
+        nickname: 'Jo',
+        description: `Lorem Ipsum is simply dummy text`,
+        link: '/joanna'
+      },    
+      {
+        name: 'Joseph Noel Bulandres',
+        nickname: 'Jonjon',
+        description: `Lorem Ipsum is simply dummy text`,
+        link: '/jonjon'
+      },       
+      {
+        name: 'Cromwell Bulandres Jr',
+        nickname: 'Junior',
+        description: `Lorem Ipsum is simply dummy text`,
+        link: '/junior'
+      },  
+    ]
   }
 };
 
@@ -205,6 +239,10 @@ export const routes = [
   '/rembrandt',
   '/dovan',
   '/fatima',
+  '/jay',
+  '/joanna',
+  '/jonjon',
+  '/junior'
 ];
 
 export const nodeall = [
