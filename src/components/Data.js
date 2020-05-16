@@ -194,7 +194,7 @@ export const nodes = {
     },
     offspring: [  
       {
-        name: 'Jay Bulandres',
+        name: 'Jose Mari Bulandres',
         nickname: 'Jay',
         description: `Lorem Ipsum is simply dummy text`,
         link: '/jay'
@@ -228,7 +228,7 @@ export const nodes = {
     },
     offspring: [  
       {
-        name: 'Van Eric',
+        name: 'Van Eric Calumpang',
         nickname: 'Kaka',
         description: `Lorem Ipsum is simply dummy text`,
         link: '/rica'
@@ -238,7 +238,7 @@ export const nodes = {
   donrey: {
     parent: {
       name: 'Don Rey Calumpang',
-      spouse: 'Marites Something',
+      spouse: 'Marites Aguilar',
       description: 'Lorem Ipsum',
       link: '/andrews'
     },
@@ -250,7 +250,7 @@ export const nodes = {
         link: '/donrey'
       },
       {
-        name: 'Jed Calumpang',
+        name: 'Jed Thomas Calumpang',
         nickname: 'Jed',
         description: `Lorem Ipsum is simply dummy text`,
         link: '/donrey'
