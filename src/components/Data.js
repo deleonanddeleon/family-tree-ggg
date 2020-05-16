@@ -218,6 +218,110 @@ export const nodes = {
         link: '/junior'
       },  
     ]
+  },
+  rica: {
+    parent: {
+      name: 'Ricardena Calumpang',
+      spouse: 'Nick Villarojo',
+      description: 'Lorem Ipsum',
+      link: '/andrews'
+    },
+    offspring: [  
+      {
+        name: 'Van Eric',
+        nickname: 'Kaka',
+        description: `Lorem Ipsum is simply dummy text`,
+        link: '/rica'
+      },
+    ]
+  },
+  donrey: {
+    parent: {
+      name: 'Don Rey Calumpang',
+      spouse: 'Marites Something',
+      description: 'Lorem Ipsum',
+      link: '/andrews'
+    },
+    offspring: [  
+      {
+        name: 'James Don Calumpang',
+        nickname: 'Jad',
+        description: `Lorem Ipsum is simply dummy text`,
+        link: '/donrey'
+      },
+      {
+        name: 'Jed Calumpang',
+        nickname: 'Jed',
+        description: `Lorem Ipsum is simply dummy text`,
+        link: '/donrey'
+      },
+    ]
+  },
+  josette: {
+    parent: {
+      name: 'Joselita Calumpang',
+      spouse: 'Paul Flordeliz',
+      description: 'Lorem Ipsum',
+      link: '/andrews'
+    },
+    offspring: [  
+      {
+        name: 'Paul Andrew Flordeliz',
+        nickname: 'Dodong Paul',
+        description: `Lorem Ipsum is simply dummy text`,
+        link: '/josette'
+      },
+      {
+        name: 'Mary Josette Flordeliz',
+        nickname: 'Diday',
+        description: `Lorem Ipsum is simply dummy text`,
+        link: '/josette'
+      },
+      {
+        name: 'Jose Paolo Flordeliz',
+        nickname: 'JP',
+        description: `Lorem Ipsum is simply dummy text`,
+        link: '/josette'
+      },
+    ]
+  },
+  carina: {
+    parent: {
+      name: 'Carina Marie Calumpang',
+      spouse: 'Alfonso Orozco',
+      description: 'Lorem Ipsum',
+      link: '/andrews'
+    },
+    offspring: [  
+      {
+        name: 'Zara Orozco',
+        nickname: 'Zara',
+        description: `Lorem Ipsum is simply dummy text`,
+        link: '/carina'
+      },
+    ]
+  },
+  rembrandt: {
+    parent: {
+      name: 'Jose Rembrandt Calumpang',
+      spouse: 'Karen Kae Moreno',
+      description: 'Lorem Ipsum',
+      link: '/andrews'
+    },
+    offspring: [  
+      {
+        name: 'Wyatt Mari Calumpang',
+        nickname: 'Wy',
+        description: `Lorem Ipsum is simply dummy text`,
+        link: '/rembrandt'
+      },
+      {
+        name: 'Shawn Ricardo Calumpang',
+        nickname: 'Shunlee',
+        description: `Lorem Ipsum is simply dummy text`,
+        link: '/rembrandt'
+      },    
+    ]
   }
 };
 
