@@ -102,7 +102,7 @@ export const nodes = {
         link: '/michiko'
       },   
       {
-        name: 'Rembrandt Calumpang',
+        name: 'Jose Rembrandt Calumpang',
         nickname: 'Brandt',
         description: `Lorem Ipsum is simply dummy text`,
         link: '/rembrandt'
@@ -166,19 +166,19 @@ export const nodes = {
   bobong: {
     parent: {
       name: 'Andre Calumpang',
-      spouse: 'Joy Something',
+      spouse: 'Joy Marqueda',
       description: 'Lorem Ipsum',
       link: '/andrews'
     },
     offspring: [  
       {
-        name: 'Pamela Something',
+        name: 'Pamela Marqueda',
         nickname: 'Pam',
         description: `Lorem Ipsum is simply dummy text`,
         link: '/bobong'
       },
       {
-        name: 'Carlo Something',
+        name: 'Carlo Marqueda',
         nickname: 'Carlo',
         description: `Lorem Ipsum is simply dummy text`,
         link: '/bobong'
