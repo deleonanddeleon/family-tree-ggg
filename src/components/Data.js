@@ -146,7 +146,7 @@ export const nodes = {
         link: '/michiko'
       },
       {
-        name: 'Rafael de Leon',
+        name: 'Rafael Roberto de Leon',
         nickname: 'Paeng',
         description: `Lorem Ipsum is simply dummy text`,
         link: '/michiko'
@@ -197,25 +197,25 @@ export const nodes = {
         name: 'Jose Mari Bulandres',
         nickname: 'Jay',
         description: `Lorem Ipsum is simply dummy text`,
-        link: '/jay'
+        link: '/josie'
       },
       {
         name: 'Joanna Bulandres',
         nickname: 'Jo',
         description: `Lorem Ipsum is simply dummy text`,
-        link: '/joanna'
+        link: '/josie'
       },    
       {
         name: 'Joseph Noel Bulandres',
         nickname: 'Jonjon',
         description: `Lorem Ipsum is simply dummy text`,
-        link: '/jonjon'
+        link: '/josie'
       },       
       {
         name: 'Cromwell Bulandres Jr',
         nickname: 'Junior',
         description: `Lorem Ipsum is simply dummy text`,
-        link: '/junior'
+        link: '/josie'
       },  
     ]
   },
