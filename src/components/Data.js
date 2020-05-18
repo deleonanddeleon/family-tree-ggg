@@ -8,13 +8,13 @@ export const nodes = {
     },
     offspring: [
       {
-        name: 'Mike Calumpang',
+        name: 'Bernardino Calumpang',
         nickname: 'Mike',
         description: `Lorem Ipsum is simply dummy text`,
         link: '/mike'
       },
       {
-        name: 'Alex Calumpang',
+        name: 'Alexander Calumpang',
         nickname: 'Alex',
         description: `Lorem Ipsum is simply dummy text`,
         link: '/alex'
@@ -27,12 +27,12 @@ export const nodes = {
       },
       {
         name: 'Andrews Calumpang',
-        nickname: 'Andrews',
+        nickname: 'Andy',
         description: `Lorem Ipsum is simply dummy text`,
         link: '/andrews'
       },
       {
-        name: 'Nel Calumpang',
+        name: 'Mario Calumpang',
         nickname: 'Nellie',
         description: `Lorem Ipsum is simply dummy text`,
         link: '/nellie'
