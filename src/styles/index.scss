@@ -142,6 +142,36 @@ section.hero {
   width: 16rem;
 }
 
+/* Main section */
+#main-doc {
+  padding: 20px;
+  width: 80vw;
+  margin:  57px auto 50px auto;
+  max-width: 640px;
+}
+
+.main-section {
+  margin: 10px auto;
+  h2 {
+    text-align: center;
+    margin: 0;
+  }
+  article {
+    margin-top: 15px;
+    margin-bottom:  25px;   
+  }
+}
+
+p {
+  line-height: 1.6;
+  color: color-theme.$color-3;
+}
+
+hr {
+  /* color: var(--color-turquoise); */
+  border-color: color-theme.$color-2;
+}
+
 @media only screen and (max-width: 576px) {
   nav {
 		flex-direction: column;
@@ -176,5 +206,17 @@ section.hero {
     width: 90vw;
     margin: 0 auto;
     max-width:  400px;
+  }
+
+  #main-doc {
+    margin-left: 0px;
+    padding: 20px;
+    margin-bottom: 50px;
+    width: 100vw;
+    margin-top:  120px;
+    margin-right: 0;
+  }
+  .main-section > h2 {
+    margin-left: -10px;
   }
 }
