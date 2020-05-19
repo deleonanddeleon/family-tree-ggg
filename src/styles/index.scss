@@ -167,11 +167,6 @@ p {
   color: color-theme.$color-3;
 }
 
-hr {
-  /* color: var(--color-turquoise); */
-  border-color: color-theme.$color-2;
-}
-
 @media only screen and (max-width: 576px) {
   nav {
 		flex-direction: column;
